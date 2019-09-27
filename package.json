@@ -1,0 +1,28 @@
+{
+    "name": "build-url",
+    "version": "1.0.0",
+    "description": "A url builder",
+    "main": "src",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/claude-abounegm/build-url.git"
+    },
+    "author": "Claude Abounegm",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/claude-abounegm/build-url/issues"
+    },
+    "homepage": "https://github.com/claude-abounegm/build-url#readme",
+    "devDependencies": {
+        "eslint": "^6.1.0",
+        "eslint-config-prettier": "^6.0.0",
+        "eslint-plugin-prettier": "^3.1.0",
+        "prettier": "^1.18.2"
+    },
+    "dependencies": {
+        "lodash": "^4.17.15"
+    }
+}
