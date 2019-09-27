@@ -35,9 +35,9 @@ function buildUrl(opts) {
     }
 
     if (_.isString(path)) {
-        url.pathname = this._normalizePathPart(path);
+        url.pathname = normalizePathPart(path);
     } else if (_.isArray(path)) {
-        url.pathname = path.map(p => this._normalizePathPart(p)).join('');
+        url.pathname = path.map(normalizePathPart).join('');
     } else if (path) {
         throw new Error('path needs to be a string or an array');
     }
@@ -49,4 +49,12 @@ function buildUrl(opts) {
     return url.href;
 }
 
-module.exports = { buildUrl };
+function normalizePathPart(p) {
+    if (_.isString(p) && p) {
+        p = p.replace(/^\/?(.*?)\/?$/, '/$1');
+    }
+
+    return p;
+}
+
+module.exports = { buildUrl, normalizePathPart };

@@ -1,6 +1,6 @@
 {
     "name": "builder-url",
-    "version": "1.0.1",
+    "version": "1.0.0",
     "description": "A simple url builder, with protocol.",
     "main": "src",
     "scripts": {
@@ -16,13 +16,13 @@
         "url": "https://github.com/claude-abounegm/builder-url/issues"
     },
     "homepage": "https://github.com/claude-abounegm/builder-url#readme",
+    "dependencies": {
+        "lodash": "^4.17.15"
+    },
     "devDependencies": {
         "eslint": "^6.1.0",
         "eslint-config-prettier": "^6.0.0",
         "eslint-plugin-prettier": "^3.1.0",
         "prettier": "^1.18.2"
-    },
-    "dependencies": {
-        "lodash": "^4.17.15"
     }
 }
