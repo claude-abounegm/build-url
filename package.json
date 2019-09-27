@@ -1,21 +1,21 @@
 {
     "name": "builder-url",
-    "version": "1.0.0",
-    "description": "A url builder",
+    "version": "1.0.1",
+    "description": "A simple url builder, with protocol.",
     "main": "src",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/claude-abounegm/build-url.git"
+        "url": "git+https://github.com/claude-abounegm/builder-url.git"
     },
     "author": "Claude Abounegm",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/claude-abounegm/build-url/issues"
+        "url": "https://github.com/claude-abounegm/builder-url/issues"
     },
-    "homepage": "https://github.com/claude-abounegm/build-url#readme",
+    "homepage": "https://github.com/claude-abounegm/builder-url#readme",
     "devDependencies": {
         "eslint": "^6.1.0",
         "eslint-config-prettier": "^6.0.0",
