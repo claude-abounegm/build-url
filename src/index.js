@@ -15,7 +15,7 @@ const qs = require('querystring');
  * @param {boolean} [opts.secure] Whether to use https. Default: true.
  */
 function buildUrl(opts) {
-    const { host, path, port, query, protocol, secure = true } = opts;
+    let { host, path, port, query, protocol, secure = true } = opts;
 
     if (!protocol) {
         protocol = secure ? 'https' : 'http';
