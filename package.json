@@ -1,6 +1,6 @@
 {
     "name": "builder-url",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "A simple url builder, with protocol.",
     "main": "src",
     "scripts": {
